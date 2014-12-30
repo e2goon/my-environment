@@ -1,0 +1,10 @@
+[user]
+	email = e2goon@gmail.com
+	name = wonmin, lee
+[core]
+	editor = vim
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	lg = log --graph --full-history --all --color --branches --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
