@@ -11,6 +11,14 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'mattn/emmet-vim'
 Plugin 'editorconfig/editorconfig-vim'
+Plugin 'mustache/vim-mustache-handlebars'
+Plugin 'othree/html5.vim'
+Plugin 'jelera/vim-javascript-syntax'
+Plugin 'othree/javascript-libraries-syntax.vim'
+
 
 call vundle#end()
+
+colorscheme Monokai 
+
 filetype plugin indent on     " and turn it back on!
