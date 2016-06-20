@@ -5,7 +5,7 @@ PROMPT='
 ${ret_status}\
 %{$fg_bold[green]%} %p\
 %{$fg[cyan]%}%c\
-%{$reset_color%}\
+%{$reset_color%} \
 $(git_prompt_info) '
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[yellow]%}("
